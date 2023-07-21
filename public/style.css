@@ -1,0 +1,17 @@
+body{
+    padding: 20px;
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.column {
+    flex: 1;
+    
+}
+pre {
+    max-width: 100%; /* Set the maximum width of the <pre> element to 100% of its parent */
+    overflow: auto; /* Optional: Add scrollbars if the content overflows */
+    white-space: pre-wrap; /* Optional: Preserve line breaks and wrap long lines */
+}

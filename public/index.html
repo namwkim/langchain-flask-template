@@ -14,9 +14,18 @@
 
 <body>
     <svg id="plot"></svg>
-    <div id="selection-container">
-        <pre id="selection"></pre>
+    <div>
+        <label for="userInput">Enter your question:</label>
+        <input type="text" id="input" placeholder="What can you tell me about the chart?" style="width: 400px;">
+        <button id="btn">Submit</button>
     </div>
+    <div class="container">
+        <div class="column"><h3>Prompt</h3> <pre id="prompt"></pre></div>
+        <div class="column"><h3>Response</h3> <pre id="response"></pre></div>        
+    </div>
+    
+
+
 
 </body>
 
